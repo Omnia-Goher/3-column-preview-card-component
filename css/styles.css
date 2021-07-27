@@ -74,9 +74,11 @@
     .main-container {
         display: flex;
         align-items: stretch;
-        min-height: 470px;
-        max-height: 470px;
+        min-height: 480px;
+        max-height: 480px;
         width: 65%;
+        min-width: 700px;
+        max-width: 1050px;
         margin: 145px auto 115px;
     }
     .sendas-container {
@@ -101,7 +103,7 @@
     .button {
         font-family: 'Lexend Deca', sans-serif;
         text-transform: capitalize;
-        margin-top: 40px;
+        margin-top: 70px;
         width: 150px;
         height: 50px;
         background-color: hsl(0, 0%, 95%);
@@ -114,6 +116,7 @@
     }
     .suvs-container .button {
         color: hsl(184, 100%, 22%);
+
     }
     .luxury-container .button {
         color: hsl(179, 100%, 13%);
@@ -145,6 +148,10 @@
         font-family: 'Lexend Deca', sans-serif;
         font-weight: 400;
         color: hsla(0, 0%, 100%, 0.75);
+        margin-bottom: 0;
+        max-height: 100px;
+        min-height: 100px;
+
     }
  
 }
