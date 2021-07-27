@@ -79,16 +79,20 @@
         width: 65%;
         min-width: 700px;
         max-width: 1050px;
-        margin: 145px auto 98px;
+        margin: 147px auto 95px;
+        border-radius: 10px;
     }
     .sendas-container {
         background-color: hsl(31, 77%, 52%);
+        border-radius: 10px 0 0 10px;   
     }
     .suvs-container {
         background-color: hsl(184, 100%, 22%);
     }
     .luxury-container {
         background-color: hsl(179, 100%, 13%);
+        border-radius: 10px;
+        border-radius: 0 10px 10px 0;
     }
     .sendas-container,
     .suvs-container,
